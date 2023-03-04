@@ -3,7 +3,7 @@ import "firebase/auth";
 
 const config = firebase.initializeApp({
   apiKey: "AIzaSyBpRw50RS-RnWoHMYK9eFu-ahi27IHdQqY",
-  authDomain: "authtutorial-c8da4.firebaseapp.com",
+  authDomain: "https://netflix-cclonee.netlify.app/",
   projectId: "authtutorial-c8da4",
   storageBucket: "authtutorial-c8da4.appspot.com",
   messagingSenderId: "182712740706",
