@@ -2,13 +2,13 @@ import firebase from "firebase/app";
 import "firebase/auth";
 
 const config = firebase.initializeApp({
-  apiKey: "AIzaSyBpRw50RS-RnWoHMYK9eFu-ahi27IHdQqY",
-  authDomain: "https://netflix-cclonee.netlify.app/",
-  projectId: "authtutorial-c8da4",
-  storageBucket: "authtutorial-c8da4.appspot.com",
-  messagingSenderId: "182712740706",
-  appId: "1:182712740706:web:a11c4185d04537a6e9da3b",
-  measurementId: "G-DP4B2CK9XL",
+  apiKey: "AIzaSyArWDXqc120hMCN_tep7dsE34aHg-uw-XE",
+  authDomain: "movies-bf6aa.firebaseapp.com",
+  projectId: "movies-bf6aa",
+  storageBucket: "movies-bf6aa.appspot.com",
+  messagingSenderId: "917283276991",
+  appId: "1:917283276991:web:b10ce046a146003444de0a",
+  measurementId: "G-9TJR1TQQKZ",
 });
 
 export const auth = firebase.auth();
@@ -19,3 +19,4 @@ provider.setCustomParameters({ prompt: "select_account" });
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default config;
+
